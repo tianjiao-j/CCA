@@ -1,0 +1,13 @@
+augment_epoch: 10
+backbone: RN50
+load_cache: true
+load_pre_feat: true
+search_hp: true
+train_epoch: 20
+dataset: oxford_flowers
+init_alpha: 10
+init_beta: 1
+init_eta: 1.0e-05
+init_gamma: 0.1
+search_scale: [50, 50]
+search_step: [200, 20]

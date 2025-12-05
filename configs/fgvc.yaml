@@ -1,0 +1,13 @@
+augment_epoch: 10
+backbone: RN50
+load_cache: true
+load_pre_feat: true
+search_hp: true
+train_epoch: 20
+dataset: fgvc
+init_alpha: 5
+init_beta: 1
+init_eta: 0.1
+init_gamma: 1.0e-06
+search_scale: [30, 30]
+search_step: [200, 20]

@@ -1,0 +1,13 @@
+augment_epoch: 10
+backbone: RN50
+load_cache: true
+load_pre_feat: true
+search_hp: true
+train_epoch: 20
+dataset: oxford_pets
+init_alpha: 1.17
+init_beta: 1
+init_eta: 0.01
+init_gamma: 0.1
+search_scale: [7, 3]
+search_step: [200, 20]

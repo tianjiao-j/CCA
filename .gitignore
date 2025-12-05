@@ -1,0 +1,9 @@
+data/
+.idea/
+.vscode/
+__pycache__/
+clip/__pycache__/
+datasets/__pycache__/
+lpclip/
+caches/rn50/*/
+outputs*/

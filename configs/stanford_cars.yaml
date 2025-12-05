@@ -1,0 +1,13 @@
+augment_epoch: 10
+backbone: RN50
+load_cache: true
+load_pre_feat: true
+search_hp: true
+train_epoch: 20
+dataset: stanford_cars
+init_alpha: 3
+init_beta: 1
+init_eta: 1.0e-06
+init_gamma: 1.0
+search_scale: [20, 10]
+search_step: [200, 20]
